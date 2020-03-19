@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/n1c0/stayathomechallenge.me/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/n1c0/stayathomechallenge.me/src/pages"
+      }
+    ],
+    "/Users/n1c0/stayathomechallenge.me/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/n1c0/stayathomechallenge.me/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/n1c0/stayathomechallenge.me"
+  ],
+  "paths": {
+    "ROOT": "/Users/n1c0/stayathomechallenge.me",
+    "SRC": "/Users/n1c0/stayathomechallenge.me/src",
+    "DIST": "/Users/n1c0/stayathomechallenge.me/dist",
+    "ASSETS": "/Users/n1c0/stayathomechallenge.me/dist",
+    "PLUGINS": "/Users/n1c0/stayathomechallenge.me/plugins",
+    "TEMP": "/Users/n1c0/stayathomechallenge.me/tmp",
+    "ARTIFACTS": "/Users/n1c0/stayathomechallenge.me/artifacts",
+    "PUBLIC": "/Users/n1c0/stayathomechallenge.me/public",
+    "NODE_MODULES": "/Users/n1c0/stayathomechallenge.me/node_modules",
+    "EXCLUDE_MODULES": "/Users/n1c0/stayathomechallenge.me/node_modules",
+    "PACKAGE": "/Users/n1c0/stayathomechallenge.me/package.json",
+    "HTML_TEMPLATE": "/Users/n1c0/stayathomechallenge.me/dist/index.html",
+    "STATIC_DATA": "/Users/n1c0/stayathomechallenge.me/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
